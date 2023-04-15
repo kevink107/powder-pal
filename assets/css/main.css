@@ -2173,7 +2173,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/Fotor_AI_cropped.png");
+		background: url("../../images/Fotor_AI_cropped.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2907,6 +2907,28 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 640px) {
+
+		.meetus {
+			display: flex;
+			align-items: center;
+			flex-direction:column;
+			justify-content: space-between;
+		}
+	
+	}
+
+	@media screen and (min-width: 640px) {
+
+		.meetus {
+			display: flex;
+			flex-direction:row;
+			justify-content: space-between;
+		}
+	
+	}
+
+
 	.headshot img {
 		width: 150px;
 		height: 150px;
@@ -2914,11 +2936,7 @@ input, select, textarea {
 		margin-left: 20px;
 	}
 
-	.meetus {
-		display: flex;
-		flex-direction:row;
-		justify-content: space-between;
-	}
+
 
 	#meet {
 		width: 100%;
