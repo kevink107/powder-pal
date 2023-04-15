@@ -2117,7 +2117,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #0047ab;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2173,7 +2173,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #CCE8F4 url("../../images/Fotor_AI_cropped.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2905,4 +2905,25 @@ input, select, textarea {
 				padding: 40px 0 20px 0;
 			}
 
+	}
+
+	.headshot img {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		margin-left: 20px;
+	}
+
+	.meetus {
+		display: flex;
+		flex-direction:row;
+		justify-content: space-between;
+	}
+
+	#meet {
+		width: 100%;
+	}
+
+	.nametext {
+		margin-left: 30px;
 	}
