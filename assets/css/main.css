@@ -84,7 +84,6 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1554,7 +1553,7 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				background: #fff;
+				background: #f7f7f7;
 				position: relative;
 				top: -0.65em;
 				display: inline;
@@ -2066,7 +2065,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
+		background: #f7f7f7;
 		border-bottom: solid 1px #ccc;
 		padding: 5em 0 4em 0;
 		text-align: center;
@@ -2266,7 +2265,6 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2276,14 +2274,17 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
-		#main .major h2 {
+		/* #main .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
+		} */
+		#main {
+			background: #f7f7f7;
+			
 		}
 
 /* Footer */
@@ -2300,7 +2301,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			/* background: url("images/bg01.png"); */
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2404,6 +2405,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 0;
+				background-color: #f7f7f7;
 			}
 
 				#intro section {
@@ -2631,7 +2633,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				/* background-image: url("images/bg02.png"); */
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
@@ -2913,7 +2915,8 @@ input, select, textarea {
 			display: flex;
 			align-items: center;
 			flex-direction:column;
-			justify-content: space-between;
+			justify-content: space-around;
+			/* background-color: #000000; */
 		}
 	
 	}
@@ -2923,7 +2926,8 @@ input, select, textarea {
 		.meetus {
 			display: flex;
 			flex-direction:row;
-			justify-content: space-between;
+			justify-content: space-around;
+			/* background-color: #000000; */
 		}
 	
 	}
@@ -2937,11 +2941,29 @@ input, select, textarea {
 	}
 
 
-
-	#meet {
+ #meet {
+	 position: absolute;
 		width: 100%;
 	}
 
-	.nametext {
-		margin-left: 30px;
-	}
+/* .meetus body {
+	background: #112054;
+} */
+
+.ourfoot body {
+	background: #252122;
+}
+
+.nametext {
+	margin-left: 30px;
+	color: white;
+}
+
+#cs67foot {
+	color: white;
+	font-size: medium;
+	align-items: center;
+	padding: 60px;
+	text-align: center;
+
+}
