@@ -112,6 +112,7 @@ input, select, textarea {
 
 	i, em {
 		font-style: italic;
+		font-size: 14pt;
 	}
 
 	sub {
@@ -1613,7 +1614,7 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #0047ab;
+		background: #01497C;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -2117,7 +2118,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #0047ab;
+					background: #01497C;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2204,6 +2205,43 @@ input, select, textarea {
 				margin: 0;
 				font-size: 1.5em;
 			}
+
+/* New Banner */
+
+	#newbanner {
+		background: url("../../images/Fotor_AI_cropped.png");
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: left;
+		position: relative;
+		padding: 8em 0;
+		margin: 4em 0 0 0;
+	}
+
+		#newbanner h1 {
+			color: #01497C;
+			font-weight: 700;
+			font-size: 2.5em;
+			margin: 0 0 0.65em 0;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		#newbanner header p {
+			color: #628db2;
+			padding: 0;
+			font-style: normal;
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+/*illustration*/
+		#illustration {
+			margin: 4em 0 0 0;
+			align-items: center;
+			align-content: center;
+			background-color: #f7f7f7;
+		}
 
 /* Intro */
 
@@ -2962,9 +3000,9 @@ input, select, textarea {
 
 #cs67foot {
 	color: white;
-	font-size: medium;
+	font-size: 16pt;
 	align-items: center;
-	padding: 60px;
+	padding: 20px;
 	text-align: center;
 
 }
